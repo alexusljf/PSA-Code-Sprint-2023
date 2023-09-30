@@ -1,0 +1,74 @@
+.resource-allocation-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resource-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resource-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .resource-icon img {
+    width: 24px; /* Adjust the icon size as needed */
+    height: 24px;
+    margin-right: 10px; /* Add spacing between icon and text */
+  }
+  
+  .available {
+    background-color: #c0e28e; /* Green */
+  }
+  
+  .in-use {
+    background-color: #ffcc80; /* Orange */
+  }
+  
+  .maintenance {
+    background-color: #f28b82; /* Red */
+  }
+  
+  .resource-details {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  /* Add the styles for the popup and background */
+
+/* Styles for the popup background */
+.popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top of everything else */
+  }
+  
+  /* Styles for the popup */
+  .popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    overflow-y: auto;
+  }
+  
+  /* Add any additional styles you need for the popup content */
+  

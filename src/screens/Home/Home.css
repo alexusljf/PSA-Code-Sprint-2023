@@ -1,0 +1,19 @@
+.ButtonContainer {
+    margin-top: -40vh;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+}
+.HomeText{
+    padding-top: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+}
+.Home{
+    background-image: url('./bn-home-2.jpg');
+    background-color: rgb(187, 202, 202);
+    height: 100vh;
+}
+  

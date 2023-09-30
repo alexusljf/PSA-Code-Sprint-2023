@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.homeButton, .middleButton{ 
+    cursor: pointer;
+    font-size: 25px;
+    white-space: nowrap;
+    background-color: #293129;
+    color: #fff1de;
+    border-color: #293129;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s;
+}
+.homeButton:hover, .middleButton:hover{
+    background-color: #7D8F69;
+    color: #395144;
+    border-color: #7D8F69;
+}
+.homeButtonNight, .middleButtonNight{ 
+    cursor: pointer;
+    font-size: 20px;
+    white-space: nowrap;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s;
+}
+.homeButtonNight:hover, .middleButtonNight:hover{
+    background-color: rgba(0, 0, 0, 0.884);
+    border-color: rgba(0, 0, 0, 0.884);
+    color: white;
+}
+.topBar{
+    background-color: #4E6C50;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    flex-direction: row;
+    height: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+.topBarNight{
+    background-color: rgb(26, 25, 25);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    flex-direction: row;
+    height: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+.middleButton, .middleButtonNight{
+    margin-left:10px; 
+    margin-right: 10px;
+}
+.PSALogo{
+    height: 25px;
+}
+.leftSection{
+    display:flex;
+    flex: 1;
+    align-items:center;
+    justify-content: start;
+}
+.middleSection{
+    display:flex;
+    flex: 1;
+    align-items:center;
+    justify-content: center;
+}
+.rightSection{
+    display:flex;
+    flex: 1;
+    align-items:center;
+    justify-content: end;
+}
+.faicon{
+    font-size:36px;
+    margin-left:10px; 
+    margin-right: 10px; 
+    color:#293129;
+    transition: 0.2s;
+}
+.faicon:hover{
+    color: #7D8F69;
+}
+.faiconNight{
+    font-size:36px;
+    margin-left:10px; 
+    margin-right: 10px; 
+    color:white;
+    transition: 0.2s;
+}
+.faiconNight:hover{
+    color: rgba(0, 0, 0, 0.884);
+}
+.switch{
+    margin-left:25px; 
+    width: 100px;
+    height: 100px;    
+}
+@media (max-width: 430px){
+    .homeButton, .middleButton, .homeButtonNight, .middleButtonNight{ 
+        display:none;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .topBar, .topBarNight{
+        height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .middleButton, .middleButtonNight{
+        display:none;
+        margin-left: 5px; 
+        margin-right: 5px;
+    }
+    .faicon, .faiconNight{
+        font-size: 24px;
+        margin-left: 5px; 
+        margin-right: 5px; 
+    }
+    
+    .switch{
+        margin-left: 6px; 
+        width: 100px;
+        height: 100px;    
+    }
+}
