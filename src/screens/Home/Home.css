@@ -26,7 +26,7 @@
 .ButtonContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Adjust the column width as needed */
-  gap: 20px; /* Adjust the gap between items as needed */
+  gap: 10px; /* Reduce the gap between items */
   justify-items: center;
 }
 
@@ -36,11 +36,45 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  width: 400px; /* Set a specific width for all cards */
 }
-.portImage{
-  width: 400px;
-}
-/* Add your existing styles for .portImage, .portName, .portCardLink, and .portButton here */
 
-  
+/* Styles for the portImage */
+.portImage {
+  width: 100%; /* Make all images the same width */
+  height: 150px; /* Set a specific height for all images */
+  object-fit: cover; /* Crop and center the image */
+  border-radius: 4px; /* Add border-radius for a rounded look */
+}
+
+/* Styles for the portName */
+.portName {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin: 10px 0; /* Add spacing above and below the name */
+}
+
+/* Styles for the portButton */
+.portButton {
+  background-color: #007BFF; /* Customize the button's background color */
+  color: #fff; /* Customize the text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; /* Make the button a block-level element */
+  margin-top: 10px; /* Add spacing above the button */
+}
+
+.portButton:hover {
+  background-color: #0056b3; /* Customize the button's hover color */
+}
+
+/* Center the button within the portCard */
+.portCardLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* Remove underlines from links */
+}
