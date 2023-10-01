@@ -7,7 +7,8 @@ The AI Resource Allocation Manager frees up resources in use or under maintenanc
 
 ## How to run
 
-1) Go to the website (https://alexusljf.github.io/PSA-Code-Sprint-2023/) or cd into the project's folder and run "npm run start"
+1.1) Go to the website (https://alexusljf.github.io/PSA-Code-Sprint-2023/) OR
+1.2) CD into the project's folder, run "npm install" to install dependencies, then run "npm run start" to start the app
 2) Click on a port's button to view that port's resources
 3) Click on the "AI Resource Allocation" button to run the AI
 
