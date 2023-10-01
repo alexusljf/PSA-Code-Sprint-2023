@@ -18,35 +18,35 @@ function Home() {
         <div className="portCard">
           <img src={tuasPortImg} alt="Tuas Port" className="portImage" />
           <h3 className="portName">Tuas Port</h3>
-          <a href="/PSA-Code-Sprint-2023/port/tuas" className="portCardLink">
+          <a href="/#/port/tuas" className="portCardLink">
             <button className="portButton">View Port</button>
           </a>
         </div>
         <div className="portCard">
           <img src={jurongIslandImg} alt="Jurong Island Terminal" className="portImage" />
           <h3 className="portName">Jurong Island Terminal</h3>
-          <a href="/PSA-Code-Sprint-2023/port/jurongisland" className="portCardLink">
+          <a href="/#/port/jurongisland" className="portCardLink">
             <button className="portButton">View Port</button>
           </a>
         </div>
         <div className="portCard">
           <img src={keppelImg} alt="Keppel Port" className="portImage" />
           <h3 className="portName">Keppel Port</h3>
-          <a href="/PSA-Code-Sprint-2023/port/keppel" className="portCardLink">
+          <a href="/#/port/keppel" className="portCardLink">
             <button className="portButton">View Port</button>
           </a>
         </div>
         <div className="portCard">
           <img src={braniPortImg} alt="Brani Port" className="portImage" />
           <h3 className="portName">Brani Port</h3>
-          <a href="/PSA-Code-Sprint-2023/port/brani" className="portCardLink">
+          <a href="/#/port/brani" className="portCardLink">
             <button className="portButton">View Port</button>
           </a>
         </div>
         <div className="portCard">
           <img src={pasirPangjangImg} alt="Pasir Panjang Port" className="portImage" />
           <h3 className="portName">Pasir Panjang Port</h3>
-          <a href="/PSA-Code-Sprint-2023/port/pasirpanjang" className="portCardLink">
+          <a href="/#/port/pasirpanjang" className="portCardLink">
             <button className="portButton">View Port</button>
           </a>
         </div>

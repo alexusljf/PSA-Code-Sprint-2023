@@ -18,24 +18,24 @@ const Header = () => {
             </a>
             </div>
         <div className="middleSection">
-            <a href = "/PSA-Code-Sprint-2023/">
+            <a href = "/#/">
                     <button className = "middleButton">
                         Home
                     </button>
             </a>
-            <a href = "/PSA-Code-Sprint-2023/about">
+            <a href = "/#/about">
                     <button className = "middleButton">
                         About
                     </button>
             </a>
         </div>
             <div className="rightSection">
-                <a href = "/PSA-Code-Sprint-2023/faq">
+                <a href = "/#/faq">
                         <button className = "middleButton">
                             FAQ
                         </button>
                 </a>
-                <a href = "/PSA-Code-Sprint-2023/contact">
+                <a href = "/#/contact">
                         <button className = "middleButton">
                             Contact Us
                         </button>
