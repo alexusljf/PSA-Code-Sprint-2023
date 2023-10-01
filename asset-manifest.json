@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ai-resource-allocation/static/css/main.d37613d5.css",
-    "main.js": "/ai-resource-allocation/static/js/main.81ad43b3.js",
-    "static/js/787.28cb0dcd.chunk.js": "/ai-resource-allocation/static/js/787.28cb0dcd.chunk.js",
-    "static/media/bn-home-1.jpg": "/ai-resource-allocation/static/media/bn-home-1.6952562e318bfb631db8.jpg",
-    "static/media/bn-home-2.jpg": "/ai-resource-allocation/static/media/bn-home-2.19c87f80a04a1b51d6d2.jpg",
-    "static/media/Keppel-Terminal.png": "/ai-resource-allocation/static/media/Keppel-Terminal.6eb12ada63ecffa78e29.png",
-    "static/media/Brani-Terminal.png": "/ai-resource-allocation/static/media/Brani-Terminal.17047cfa8eca04b2ca87.png",
-    "static/media/Pasir-Panjang-Terminals.png": "/ai-resource-allocation/static/media/Pasir-Panjang-Terminals.24e8ea33b8b21e6ea2f6.png",
-    "static/media/tuas_port.jpg": "/ai-resource-allocation/static/media/tuas_port.100566d7bf3770daae46.jpg",
-    "static/media/JIT-1-scaled-e1664871532639.jpg": "/ai-resource-allocation/static/media/JIT-1-scaled-e1664871532639.328fe52928f8fa4756cf.jpg",
-    "static/media/psa-singapore-logo-copy.webp": "/ai-resource-allocation/static/media/psa-singapore-logo-copy.387a775fd105ad655311.webp",
-    "index.html": "/ai-resource-allocation/index.html",
-    "main.d37613d5.css.map": "/ai-resource-allocation/static/css/main.d37613d5.css.map",
-    "main.81ad43b3.js.map": "/ai-resource-allocation/static/js/main.81ad43b3.js.map",
-    "787.28cb0dcd.chunk.js.map": "/ai-resource-allocation/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/PSA-Code-Sprint-2023/static/css/main.9319ffc4.css",
+    "main.js": "/PSA-Code-Sprint-2023/static/js/main.ee8edd4b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PSA-Code-Sprint-2023/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bn-home-1.jpg": "/PSA-Code-Sprint-2023/static/media/bn-home-1.6952562e318bfb631db8.jpg",
+    "static/media/bn-home-2.jpg": "/PSA-Code-Sprint-2023/static/media/bn-home-2.19c87f80a04a1b51d6d2.jpg",
+    "static/media/Keppel-Terminal.png": "/PSA-Code-Sprint-2023/static/media/Keppel-Terminal.6eb12ada63ecffa78e29.png",
+    "static/media/Brani-Terminal.png": "/PSA-Code-Sprint-2023/static/media/Brani-Terminal.17047cfa8eca04b2ca87.png",
+    "static/media/Pasir-Panjang-Terminals.png": "/PSA-Code-Sprint-2023/static/media/Pasir-Panjang-Terminals.24e8ea33b8b21e6ea2f6.png",
+    "static/media/tuas_port.jpg": "/PSA-Code-Sprint-2023/static/media/tuas_port.100566d7bf3770daae46.jpg",
+    "static/media/JIT-1-scaled-e1664871532639.jpg": "/PSA-Code-Sprint-2023/static/media/JIT-1-scaled-e1664871532639.328fe52928f8fa4756cf.jpg",
+    "static/media/psa-singapore-logo-copy.webp": "/PSA-Code-Sprint-2023/static/media/psa-singapore-logo-copy.387a775fd105ad655311.webp",
+    "index.html": "/PSA-Code-Sprint-2023/index.html",
+    "main.9319ffc4.css.map": "/PSA-Code-Sprint-2023/static/css/main.9319ffc4.css.map",
+    "main.ee8edd4b.js.map": "/PSA-Code-Sprint-2023/static/js/main.ee8edd4b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PSA-Code-Sprint-2023/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d37613d5.css",
-    "static/js/main.81ad43b3.js"
+    "static/css/main.9319ffc4.css",
+    "static/js/main.ee8edd4b.js"
   ]
 }
