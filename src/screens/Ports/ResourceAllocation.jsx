@@ -40,7 +40,7 @@ const ResourceAllocation = ({ portName, resourceData }) => {
         displayText = 'Displaying Resource Allocation for Keppel Port';
         break;
     case 'jurongisland':
-        displayText = 'Displaying Resource Allocation for Tanjong Pagar Port';
+        displayText = 'Displaying Resource Allocation for Jurong Island Terminal';
         break;                  
     }
 
