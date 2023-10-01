@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://alexusljf.github.io/ai-resource-allocation/",
+  "homepage": "https://alexusljf.github.io/PSA-Code-Sprint-2023/",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
