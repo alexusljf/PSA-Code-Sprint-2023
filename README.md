@@ -4,6 +4,7 @@ Welcome to my AI Resource Allocation Manager! <br>
 This is a front-end mockup of an AI Resource Allocation Manager that can reallocate resources in the various PSA ports around Singapore. <br>
 This web app displays the availability of each port's resources <br>
 The AI Resource Allocation Manager frees up resources in use or under maintenance by reallocating resources. <br>
+YouTube Video Presentation: https://www.youtube.com/watch?v=klxWG5OOpWI
 
 ## How to run
 
