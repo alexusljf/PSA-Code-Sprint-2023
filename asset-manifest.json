@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PSA-Code-Sprint-2023/static/css/main.c73363d3.css",
-    "main.js": "/PSA-Code-Sprint-2023/static/js/main.7fc07844.js",
+    "main.css": "/PSA-Code-Sprint-2023/static/css/main.86eec262.css",
+    "main.js": "/PSA-Code-Sprint-2023/static/js/main.3f2ca859.js",
     "static/js/787.28cb0dcd.chunk.js": "/PSA-Code-Sprint-2023/static/js/787.28cb0dcd.chunk.js",
     "static/media/bn-home-1.jpg": "/PSA-Code-Sprint-2023/static/media/bn-home-1.6952562e318bfb631db8.jpg",
     "static/media/bn-home-2.jpg": "/PSA-Code-Sprint-2023/static/media/bn-home-2.19c87f80a04a1b51d6d2.jpg",
@@ -12,12 +12,12 @@
     "static/media/JIT-1-scaled-e1664871532639.jpg": "/PSA-Code-Sprint-2023/static/media/JIT-1-scaled-e1664871532639.328fe52928f8fa4756cf.jpg",
     "static/media/psa-singapore-logo-copy.webp": "/PSA-Code-Sprint-2023/static/media/psa-singapore-logo-copy.387a775fd105ad655311.webp",
     "index.html": "/PSA-Code-Sprint-2023/index.html",
-    "main.c73363d3.css.map": "/PSA-Code-Sprint-2023/static/css/main.c73363d3.css.map",
-    "main.7fc07844.js.map": "/PSA-Code-Sprint-2023/static/js/main.7fc07844.js.map",
+    "main.86eec262.css.map": "/PSA-Code-Sprint-2023/static/css/main.86eec262.css.map",
+    "main.3f2ca859.js.map": "/PSA-Code-Sprint-2023/static/js/main.3f2ca859.js.map",
     "787.28cb0dcd.chunk.js.map": "/PSA-Code-Sprint-2023/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c73363d3.css",
-    "static/js/main.7fc07844.js"
+    "static/css/main.86eec262.css",
+    "static/js/main.3f2ca859.js"
   ]
 }
