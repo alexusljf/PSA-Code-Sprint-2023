@@ -11,11 +11,11 @@ function App() {
     <div className='App'>
         <BrowserRouter>
                 <Routes>
-                  <Route path="/" element={<Home/>} />
-                  <Route path="/about" element={<About/>} />
-                  <Route path="/port/:portName" element={<PortPage />} />
-                  <Route path="/faq" element={<FAQ/>} />
-                  <Route path="/contact" element={<Contact/>} />
+                  <Route path="/PSA-Code-Sprint-2023/" element={<Home/>} />
+                  <Route path="/PSA-Code-Sprint-2023/about" element={<About/>} />
+                  <Route path="/PSA-Code-Sprint-2023/port/:portName" element={<PortPage />} />
+                  <Route path="/PSA-Code-Sprint-2023/faq" element={<FAQ/>} />
+                  <Route path="/PSA-Code-Sprint-2023/contact" element={<Contact/>} />
                 </Routes>
             </BrowserRouter>
     </div>
