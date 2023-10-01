@@ -1,60 +1,59 @@
 .HomeText {
-    background-color: rgb(196, 196, 196);
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 auto; /* Set left and right margins to 'auto' */
-    padding: 20px;
-    display: block; /* Block-level element */
-    width: fit-content; /* Set the width to the content width */
-    text-align: center; /* Horizontally center text within the div */
-    border-radius: 16px;
-    border: 1px black solid;
-    margin-bottom: 50px;
-  }
-  .HomeText h1{
-    font-size: 44px;
-  }
-  .HomeText p{
-    font-size: 18px;
-  }
-.Home{
-    padding-top: 14vh;
-    background-size: cover;
-    background-image: url('./bn-home-1.jpg');
-    padding-bottom: 20px;
+  background-color: rgb(196, 196, 196);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+  width: fit-content;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px black solid;
+  margin-bottom: 50px;
 }
-/* Styles for the ButtonContainer using CSS Grid */
+
+.HomeText h1{
+  font-size: 44px;
+}
+
+.HomeText p{
+  font-size: 18px;
+}
+
+.Home{
+  padding-top: 14vh;
+  background-size: cover;
+  background-image: url('./bn-home-1.jpg');
+  padding-bottom: 20px;
+}
+
 .ButtonContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Adjust the column width as needed */
-  gap: 10px; /* Reduce the gap between items */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   justify-items: center;
 }
 
-/* Styles for the portCard */
 .portCard {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
   text-align: center;
   padding: 15px;
-  width: 400px; /* Set a specific width for all cards */
+  width: 400px;
 }
 
-/* Styles for the portImage */
 .portImage {
-  width: 100%; /* Make all images the same width */
-  height: 150px; /* Set a specific height for all images */
-  object-fit: cover; /* Crop and center the image */
-  border-radius: 4px; /* Add border-radius for a rounded look */
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
-/* Styles for the portName */
 .portName {
-  font-size: 18px; /* Adjust the font size as needed */
-  margin: 10px 0; /* Add spacing above and below the name */
+  font-size: 18px;
+  margin: 10px 0;
 }
 
-/* Styles for the portButton */
 .portButton {
   cursor: pointer;
   height: 43px;
@@ -78,10 +77,9 @@
   color: #000000;
 }
 
-/* Center the button within the portCard */
 .portCardLink {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-decoration: none; /* Remove underlines from links */
+  text-decoration: none;
 }

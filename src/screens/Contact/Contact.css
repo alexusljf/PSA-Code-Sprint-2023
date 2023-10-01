@@ -4,34 +4,31 @@
   background-image: url('../Home/bn-home-2.jpg');
   height: 86vh;
 }
-/* Center the ContactText div vertically and horizontally */
 .ContactText {
   background-color: rgb(196, 196, 196);
   font-family: 'Montserrat', sans-serif;
-  margin: 0 auto; /* Set left and right margins to 'auto' */
+  margin: 0 auto; 
   padding: 20px;
-  display: block; /* Block-level element */
-  width: fit-content; /* Set the width to the content width */
-  text-align: center; /* Horizontally center text within the div */
+  display: block; 
+  width: fit-content; 
+  text-align: center;
   border-radius: 16px;
   border: 1px black solid;
   text-align: center;
-  max-width: 800px; /* Limit the width of the ContactText */
-  margin: 0 auto; /* Center horizontally */
+  max-width: 800px; 
+  margin: 0 auto; 
 }
 
-/* Style the contact form */
 .ContactForm {
   border-radius: 16px;
   border: 1px black solid;
   background-color: rgb(196, 196, 196);
   padding: 20px;
   border-radius: 8px;
-  max-width: 600px; /* Limit the width of the form */
-  margin: 20px auto; /* Center horizontally */
+  max-width: 600px;
+  margin: 20px auto; 
 }
 
-/* Style form fields and labels */
 .FormField {
   margin-bottom: 15px;
 }
@@ -42,9 +39,7 @@ label {
   padding-bottom: 5px;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+input[type="text"], input[type="email"], textarea {
   background-color: rgba(255, 255, 255, 0.568);
   width: 580px;
   padding: 10px;
@@ -53,7 +48,6 @@ textarea {
   resize: none;
 }
 
-/* Style the submit button */
 .SubmitButton {
   text-align: center;
 }

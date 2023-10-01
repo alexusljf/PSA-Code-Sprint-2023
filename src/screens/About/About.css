@@ -2,11 +2,11 @@
 .AboutText {
   background-color: rgb(196, 196, 196);
   font-family: 'Montserrat', sans-serif;
-  margin: 0 auto; /* Set left and right margins to 'auto' */
+  margin: 0 auto; 
   padding: 20px;
-  display: block; /* Block-level element */
-  max-width: 1100px; /* Set the maximum width as desired */
-  text-align: center; /* Horizontally center text within the div */
+  display: block;
+  max-width: 1100px; 
+  text-align: center; 
   border-radius: 16px;
   border: 1px black solid;
 }
