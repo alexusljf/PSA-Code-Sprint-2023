@@ -1,11 +1,20 @@
 .resource-allocation-container {
-    background-color: #f7f7f7;
-    padding: 20px;
-    border-radius: 8px;
+    background-image: url('../Home/bn-home-1.jpg');
+    background-size: cover;
+    padding-top: 5vh;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: -16px;
   }
-  
+  .resource-list ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Center the list horizontally */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+}
   .resource-item {
+    text-align: center;
+    width: 500px;
     background-color: #fff;
     padding: 10px;
     border: 1px solid #ccc;
@@ -59,7 +68,9 @@
     align-items: center;
     z-index: 1000; /* Ensure it's on top of everything else */
   }
-  
+  .result{
+    text-align: center;
+  }
   /* Styles for the popup */
   .popup {
     background-color: white;
@@ -70,5 +81,42 @@
     overflow-y: auto;
   }
   
-  /* Add any additional styles you need for the popup content */
+/* Center the header content */
+.centered-header {
+    background-color: rgb(196, 196, 196);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto; /* Set left and right margins to 'auto' */
+    padding: 20px;
+    display: block; /* Block-level element */
+    max-width: 800px; /* Set the maximum width as desired */
+    text-align: center; /* Horizontally center text within the div */
+    border-radius: 16px;
+    border: 1px black solid;
+}
+.displayPortplaceholder{
+    margin-top: 0;
+}
+/* Styles for the AI button */
+.simulate-ai-button {
+    cursor: pointer;
+    height: 43px;
+    font-size: 18px;
+    white-space: nowrap;
+    background-color: rgba(250, 234, 216, 0.925);
+    color: #000000;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s;
+}
+
+.simulate-ai-button:hover {
+    background-color: rgb(247, 165, 127);
+    color: #000000;
+}
+
   

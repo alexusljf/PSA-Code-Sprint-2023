@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import './PortPage.css';
 import Header from '../../components/Header/Header';
 import ResourceAllocation from './ResourceAllocation';
-import DisplayPort from './DisplayPort';
 
 const portData = {
     tuas: [
@@ -27,7 +26,7 @@ const portData = {
       { id: 18, name: 'Workers', status: '14 Available, 20 Busy' , type: 'Workers'},
       // Add more resource data for Port 1...
     ],
-    tanjongpagar: [
+    jurongisland: [
       { id: 1, name: 'Berth 1', status: 'In Use', type: 'Berth' },
       { id: 2, name: 'Berth 2', status: 'Available', type: 'Berth' },
       { id: 3, name: 'Berth 3', status: 'In Use', type: 'Berth' },
@@ -123,7 +122,6 @@ const PortPage = () => { // Receive portName as a prop
   return (
     <div className = 'portPage'>
       <Header />
-      <DisplayPort portName = {portName}/>
       <ResourceAllocation portName={portName} resourceData={portData[portName.toLowerCase()]} />
     </div>
   );

@@ -1,19 +1,46 @@
-.ButtonContainer {
-    margin-top: -40vh;
-    display: flex;
-    justify-content: center; /* Horizontally center content */
-    align-items: center; /* Vertically center content */
-}
-.HomeText{
-    padding-top: 14vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Horizontally center content */
-    align-items: center; /* Vertically center content */
-}
+.HomeText {
+    background-color: rgb(196, 196, 196);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto; /* Set left and right margins to 'auto' */
+    padding: 20px;
+    display: block; /* Block-level element */
+    width: fit-content; /* Set the width to the content width */
+    text-align: center; /* Horizontally center text within the div */
+    border-radius: 16px;
+    border: 1px black solid;
+    margin-bottom: 50px;
+  }
+  .HomeText h1{
+    font-size: 44px;
+  }
+  .HomeText p{
+    font-size: 18px;
+  }
 .Home{
-    background-image: url('./bn-home-2.jpg');
-    background-color: rgb(187, 202, 202);
-    height: 100vh;
+    padding-top: 14vh;
+    background-size: cover;
+    background-image: url('./bn-home-1.jpg');
+    padding-bottom: 20px;
 }
+/* Styles for the ButtonContainer using CSS Grid */
+.ButtonContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the column width as needed */
+  gap: 20px; /* Adjust the gap between items as needed */
+  justify-items: center;
+}
+
+/* Styles for the portCard */
+.portCard {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+}
+.portImage{
+  width: 400px;
+}
+/* Add your existing styles for .portImage, .portName, .portCardLink, and .portButton here */
+
   

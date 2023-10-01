@@ -24,6 +24,25 @@ const ResourceAllocation = ({ portName, resourceData }) => {
       prevSelectedResource && prevSelectedResource.id === resource.id ? null : resource
     );
   };
+  let displayText = 'placeholder text';
+
+  switch(portName){
+    case 'tuas':
+        displayText = 'Displaying Resource Allocation for Tuas Port';
+        break;
+    case 'pasirpanjang':
+        displayText = 'Displaying Resource Allocation for Pasir Panjang Port';
+        break;
+    case 'brani':
+        displayText = 'Displaying Resource Allocation for Brani Port';
+        break; 
+    case 'keppel':
+        displayText = 'Displaying Resource Allocation for Keppel Port';
+        break;
+    case 'jurongisland':
+        displayText = 'Displaying Resource Allocation for Tanjong Pagar Port';
+        break;                  
+    }
 
   const simulateAIResourceAllocation = () => {
     // Reset the AI Simulation Result
@@ -70,14 +89,18 @@ const ResourceAllocation = ({ portName, resourceData }) => {
   return (
     <div className="resource-allocation-container">
       <div className="resource-header">
-        <h2>Click on the following to view more details</h2>
-        <button
+        <div className="centered-header">
+          <h2>{displayText}</h2>
+          <h2 className="displayPortplaceholder">Click on the following resources to view more details</h2>        
+          <button
           className="simulate-ai-button"
           onClick={simulateAIResourceAllocation}
           disabled={aiSimulationInProgress}
         >
-          {aiSimulationInProgress ? 'Simulating AI...' : 'Simulate AI Resource Allocation'}
+          {aiSimulationInProgress ? 'Running AI...' : 'AI Resource Allocation'}
         </button>
+        </div>
+
       </div>
       <div className="resource-list">
         <ul>
@@ -111,7 +134,7 @@ const ResourceAllocation = ({ portName, resourceData }) => {
       {aiSimulationResult && (
         <div className="popup-background">
           <div className="popup">
-            <h3>AI Simulation Result</h3>
+            <h3 class = "result">AI Re-allocation Result</h3>
             <ul>
               {aiSimulationResult.map((updatedResource) => (
                 <li key={updatedResource.id}>
