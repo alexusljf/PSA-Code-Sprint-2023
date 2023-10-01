@@ -56,19 +56,26 @@
 
 /* Styles for the portButton */
 .portButton {
-  background-color: #007BFF; /* Customize the button's background color */
-  color: #fff; /* Customize the text color */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  display: block; /* Make the button a block-level element */
-  margin-top: 10px; /* Add spacing above the button */
+  height: 43px;
+  font-size: 18px;
+  white-space: nowrap;
+  background-color: rgba(250, 234, 216, 0.925);
+  color: #000000;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: #293129;
+  border-radius: 12px;
+  border-style: solid;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.2s;
 }
 
 .portButton:hover {
-  background-color: #0056b3; /* Customize the button's hover color */
+  background-color: rgb(247, 165, 127);
+  color: #000000;
 }
 
 /* Center the button within the portCard */
